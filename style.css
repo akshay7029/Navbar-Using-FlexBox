@@ -1,0 +1,137 @@
+body{
+    margin-top: 15px;
+}
+
+.logo img{
+    width: 164px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+
+.right ul{
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li span{
+    padding: 0 5px;
+}
+
+.right ul li span{
+    padding: 0 5px;
+}
+
+.first{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 63px;
+    margin: 70px;
+}
+
+.first span{
+    font-size: 45px;
+}
+
+.first span span{
+    font: bold;
+}
+
+.first p{
+    font-size: 24px;
+    width: 60vw;
+    text-align: center;
+}
+
+.btn{
+    color: #ffffff;
+    padding: 14px 16px;
+    margin: 12px 0;
+    background-color: #00b6d1;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.green{
+    background-color: #5cb85c;
+}
+
+p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.second{
+    max-width: 64vw;
+    margin: auto;
+}
+
+.small{
+    font-size: 12px;
+}
+
+.item{
+    padding: 23px;
+    background-color: #f9f9f9;
+    font-size: 20px;
+    border-radius: 1px;
+    align-items: center;
+    text-align: center;
+}
+
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    font-family: system-ui;
+    padding-bottom: 36px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px
+}
+
+.download :nth-child(2){
+    font-size: 23px;
+
+}
+
+.download img{
+    padding: 0px 12px;
+}
+
+.download{
+    display: flex;
+    font-family: ui-sans-serif;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width: 1145px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
